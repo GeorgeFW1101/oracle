@@ -389,6 +389,8 @@ int main()
     OnMotion(data);
     send();
    }
+   string pause;
+   cin >> pause;
 }
 
 int data2;
