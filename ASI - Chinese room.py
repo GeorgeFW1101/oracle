@@ -44,7 +44,7 @@ def pri(binary):
     totalX = b''
     for char in proc:
         if len(char) == 16:
-            totalX += bitstring_to_bytes(char)
+            totalX += bitstring_to_bytes(char) + b'\n'
     f = open("text.txt", "wb")
     f.write(totalX)
 def send():
